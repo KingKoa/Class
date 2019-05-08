@@ -6,6 +6,10 @@ a {
     color:  rgb(58, 58, 58);
 }
 
+.Contacts {
+    color: rgb(58, 58, 58);
+}
+
 .AboutMe {
     background-image: url("images/Hills.jpeg");
 }
@@ -83,7 +87,7 @@ section {
 }
 
 ol {
-
+    
 }
 
 ul {
