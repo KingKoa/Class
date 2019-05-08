@@ -1,14 +1,31 @@
+a {
+    color: white;
+}
+
+.work {
+    color:  rgb(58, 58, 58);
+}
+
+.AboutMe {
+    background-image: url("images/Hills.jpeg");
+}
+
+
 body{
     background: rgb(58, 58, 58);
-    color: white;
+    color: White;
     font-family: Helvetica Neue, Helvetica, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }  
 
-footer {
-    background: black;
-    padding: 10px 20px;
+div {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 header {
@@ -24,24 +41,40 @@ header {
 
 .Home {
     background-image: url("images/ocean.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
     background-position: right;
-    height: 380px;
-    padding: 20px;
-    text-align: center;
+    height: 900px;
 }
 
-li {
+li.navBar {
     display: inline-block;
     margin-right: 20px;
 }
 
-a {
-    color: white;
+li {
+    
 }
 
-.Lions {
+section.Lions {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Lions img {
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+    margin: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    text-align: center;
     background: white;
     color: gray;
     padding: 20px;
@@ -49,16 +82,8 @@ a {
     flex-direction: column;
 }
 
-.Lions figure {
+ol {
 
-}
-
-section {
-    background: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
 }
 
 ul {
@@ -67,3 +92,21 @@ ul {
     list-style-type: none;
     text-align: center;
 }
+
+.Work {
+    background-image: url("images/NeonCity.jpeg");
+    background-position: bottom;
+}
+
+@media screen and (max-width: 675px) {
+    header {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    header {
+        height: 100px;
+    }
+}
+
